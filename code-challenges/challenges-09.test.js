@@ -218,9 +218,13 @@ const characters = [
     house: 'Snow',
   },
 ];
-
 const countNumberOfChildren = (arr) => {
+  let nums =  arr.reduce((acc,obj,index)=>{
+    (obj.children)? acc = acc+obj.children.length:acc=acc+0 ;
+    return acc;
+  },0);
   // Solution code here...
+  return nums;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -232,6 +236,10 @@ Hint: The accumulator should begin as { count: 0, sum: 0 }
 ------------------------------------------------------------------------------------------------ */
 
 const calculateAverage = (arr) => {
+  return arr.reduce((acc,values,index)=>{
+    acc = acc+values;
+    return acc;
+  },0)/arr.length;
   // Solution code here...
 };
 

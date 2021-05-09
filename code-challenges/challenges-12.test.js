@@ -186,6 +186,8 @@ The top row of the board is considered row zero and row numbers increase as they
 ------------------------------------------------------------------------------------------------ */
 
 const battleship = (board, row, col) => {
+  if (board[row][col] === '#' ){return 'hit';}
+  if (board[row][col] === ' '){return 'miss';}
   //  Solution code here...
 };
 
@@ -198,6 +200,17 @@ For example, the following input returns a product of 720: [[1,2], [3,4], [5,6]]
 ------------------------------------------------------------------------------------------------ */
 
 const calculateProduct = (numbers) => {
+  let prodArr = numbers.map(arr =>{
+    return arr.reduce((acc,nums,index)=>{
+      acc = num * acc;
+      return acc;
+    },1);
+  }).reduce((acc,nums,index)=>{
+    acc = num * acc;
+    return acc;
+  },1);
+  return prodArr;
+
   // Solution code here...
 };
 

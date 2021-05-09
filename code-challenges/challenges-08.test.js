@@ -128,11 +128,14 @@ const snorlaxData = {
   name: 'snorlax',
   weight: 4600,
 };
-
 const getBaseStatGreaterThan = (arr, minBaseStat) => {
+  return arr.filter(ss=>{
+    // return (ss.stat.baseStat > minBaseStat) ? true:  0 ;
+    if (ss.baseStat > minBaseStat){return 1;}
+    else{return 0;}
+  });
   // Solution code here...
 };
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8 - Stretch Goal
 
@@ -142,6 +145,14 @@ For example, getStatName(snorlaxData.stats, 50) will return ['special-defense', 
 ------------------------------------------------------------------------------------------------ */
 
 const getStatName = (arr, minBaseStat) => {
+  return arr.filter(ss=>{
+    // return (ss.stat.baseStat > minBaseStat) ? true:  0 ;
+    if (ss.baseStat > minBaseStat){return 1;}
+    else{return 0;}
+  }).map(arr=>{
+    return arr.stat.name;
+  });
+
   // Solution code here...
 };
 
@@ -195,6 +206,10 @@ const characters = [
 ];
 
 const getCharactersWithoutChildren = (arr) => {
+  arr.filter(obj=>{
+    if (obj.children){return 0;}
+    else{return 1;}
+  });
   // Solution code here...
 };
 

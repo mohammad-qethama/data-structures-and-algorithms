@@ -99,9 +99,11 @@ For example: charCode(['h','i']) returns [104, 105].
 ------------------------------------------------------------------------------------------------ */
 
 const charCode = (arr) => {
-  // Solution code here...
-};
-
+  return arr.map(element =>{
+     return element.charCodeAt();
+   })
+   // Solution code here...
+ };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 8 - Stretch Goal
 
@@ -113,6 +115,11 @@ For example: evenOdd([1,2,3]) returns ['odd','even','odd'].
 ------------------------------------------------------------------------------------------------ */
 
 const evenOdd = (arr) => {
+  return arr.map(num => {
+    if (num%2){ return 'odd';}
+    if(!(num%2) && !isNaN(num%2) ){return 'even';}
+    if (isNaN(num%2)) {return 'N/A';}
+  });
   // Solution code here...
 };
 
@@ -158,7 +165,11 @@ const snorlaxAbilities = {
   weight: 4600,
 };
 
+
 const extractAbilities = (arr) => {
+  return arr.map(ele=>{
+    return ele.ability.name;
+  });
   // Solution code here...
 };
 
@@ -206,6 +217,10 @@ const snorlaxStats = {
 };
 
 const extractStats = (arr) => {
+  return arr.map(ss => {
+    let obj = {name:`${ss.stat.name}`,total : (ss.effort+ss.baseStat)};
+    return obj;
+  })
   // Solution code here...
 };
 
