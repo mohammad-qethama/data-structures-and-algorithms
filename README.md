@@ -12,4 +12,11 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 ### 401 Data Structures, Code Challenges
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+
+data-structures-and-algorithms
+
+CodeFellows 401 Challenges
+
+- Class 01 : arrayReverse : [README](https://github.com/astrokd/data-structures-and-algorithms/challenges/arr-reverse/README.md)
+
+<!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
