@@ -21,4 +21,6 @@ CodeFellows 401 Challenges
 
 - Class 02 : arrayShift : [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/tree/reverseArray/challenges/arrayShift/README.md)
 
+
+- Class 03 : array-binary-search: [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/array-binary-search/README.md)
 <!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
