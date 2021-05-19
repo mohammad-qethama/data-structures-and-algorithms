@@ -1,14 +1,37 @@
-'use strict';
-function insertShiftArray (arr,num){
-  let indexToMiddle = arr.length/2;
-  let newArr = [];
-  for (let i = 0; i < indexToMiddle;i++){
-    newArr.push(arr[i]);
-  }
-  newArr.push(num);
+function binarySearch(arr,key){
+  let maxIndex = arr.length -1;
+  let minIndex = 0;
 
-  for (let i = newArr.length-1;i< arr.length;i++){
-    newArr.push(arr[i]);
+  //  return Math.floor((maxIndex-minIndex)/2);
+
+  if(key === arr[maxIndex]){
+    return maxIndex;
   }
-  return newArr;
+  if(key === arr[minIndex]){
+    return minIndex ;
+  }
+
+  while (maxIndex > minIndex){
+    console.log([Math.floor((maxIndex+minIndex)/2)]);
+
+    if(key === arr[Math.floor((maxIndex+minIndex)/2)]){
+      return Math.floor((maxIndex+minIndex)/2);
+
+
+    }
+    if( arr[Math.floor((maxIndex+minIndex)/2)] > key){
+      maxIndex = Math.floor((maxIndex+minIndex)/2);
+      console.log('min');
+
+    }
+
+    if( arr[Math.floor((maxIndex+minIndex)/2)] < key){
+      minIndex = Math.floor((maxIndex+minIndex)/2)+1;
+
+    }
+
+
+  }
+
+  return -1 ;
 }
