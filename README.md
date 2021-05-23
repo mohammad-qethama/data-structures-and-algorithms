@@ -17,14 +17,17 @@ data-structures-and-algorithms
 
 CodeFellows 401 Challenges
 
-- Class 01 : arrayReverse : [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/tree/reverseArray/challenges/arr-reverse/README.md)
+- Class 01 : arrayReverse : [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/arr-reverse/README.md)
 
-- Class 02 : arrayShift : [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/tree/reverseArray/challenges/arrayShift/README.md)
+- Class 02 : arrayShift : [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/arrayShift/README.md)
 
 
 - Class 03 : array-binary-search: [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/array-binary-search/README.md)
 
 - Class 04 : array-binary-search: [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/Data-Structure/linkedList/README.md)
 
-- Class 06 : array-binary-search: [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/Data-Structure/linkedList/READMEins.md)
+- Class 05 : array-binary-search: [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/Data-Structure/linkedList/READMEins.md)
+
+- Class 06 : Linked List: [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/Data-Structure/linkedList/README.md)
+
 <!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
