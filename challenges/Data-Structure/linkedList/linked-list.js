@@ -1,6 +1,5 @@
 'use strict';
 
-const { create } = require('eslint/lib/rules/*');
 
 class Node {
   constructor(value){
