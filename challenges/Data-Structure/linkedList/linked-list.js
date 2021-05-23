@@ -1,4 +1,6 @@
 'use strict';
+
+
 class Node {
   constructor(value){
     this.value = value;
@@ -63,9 +65,78 @@ class LinkedList{
     return LinkedListString;
   }
 
+  append(value){
+
+    let lastNode = this.head;
+
+    while( lastNode.next ){ // loop over the values starting from head stop at next === null or if value founded
+
+      lastNode = lastNode.next;
+
+    }
+
+    let node = new Node(value);
+    lastNode.next = node;
+    return lastNode;
+
+
+  }
+  insertBefore(value, newVal){
+    let lastNode = this.head;
+    if (lastNode.value === value){
+      this.insert(newVal);
+      return;
+
+    }
+
+    while( lastNode.next ){
+
+
+      if(lastNode.next.value === value){
+        console.log(value);
+        let node = new Node(newVal);
+        node.next = lastNode.next;
+        lastNode.next = node;
+        break;
+      
+      }
+      lastNode = lastNode.next;
+
+    }
+
+  }
+
+  insertAfter(value, newVal){
+    let lastNode = this.head;
+
+    while( lastNode.next ){
+
+
+      if(lastNode.value === value){
+        console.log(value);
+        let node = new Node(newVal);
+        node.next = lastNode.next;
+        lastNode.next = node;
+        return;
+      
+      }
+      lastNode = lastNode.next;
+
+    }
+
+    this.append(newVal);
+
+  
+  }
+
+
+
 
 
 }
+
+
+
 module.exports = {
   Node:Node,
   LinkedList:LinkedList

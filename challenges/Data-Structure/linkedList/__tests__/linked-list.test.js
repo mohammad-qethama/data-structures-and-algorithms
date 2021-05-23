@@ -60,4 +60,41 @@ describe('linked list Tests', ()=>{
 
   });
 
+// ******************************************************************************************************************************
+  // challenge ll Insert
+
+  it('Should Add at node at the end of the list ');
+  {
+    ll.append(100);
+
+    let allValues =  ll.toString();
+    expect(allValues).toEqual('{ 99 } -> { 7 } -> { 6 } -> { 5 } -> { 100 } -> NULL');
+
+    expect(ll.head.next.next.next.next.value).toEqual(100);
+    expect(ll.head.next.next.next.next.next).toEqual(null);
+
+  }
+  it('Should Add multible node at the end of the list ');
+  {
+    ll.append(1000);
+    ll.append(500);
+
+    let allValues =  ll.toString();
+
+    expect(ll.head.next.next.next.next.value).toEqual(100);
+    expect(ll.head.next.next.next.next.next.value).toEqual(1000);
+    expect(ll.head.next.next.next.next.next.value).toEqual(500);
+  }
+  it('Should Add node before Value ');{
+    ll.insertBefore(6,8);
+    let allValues =  ll.toString();
+    expect(ll.head.next.next.value).toEqual(8);
+    expect(ll.head.next.next.next.value).toEqual(6);
+  }
+
+
+
+
 });
+
+
