@@ -93,12 +93,11 @@ class LinkedList{
 
 
       if(lastNode.next.value === value){
-        console.log(value);
         let node = new Node(newVal);
         node.next = lastNode.next;
         lastNode.next = node;
         break;
-      
+
       }
       lastNode = lastNode.next;
 
@@ -113,12 +112,11 @@ class LinkedList{
 
 
       if(lastNode.value === value){
-        console.log(value);
         let node = new Node(newVal);
         node.next = lastNode.next;
         lastNode.next = node;
         return;
-      
+
       }
       lastNode = lastNode.next;
 
@@ -126,14 +124,56 @@ class LinkedList{
 
     this.append(newVal);
 
-  
+
   }
 
 
 
 
 
+  kthFromEnd(k){
+    let n = 1;
+
+    let lastNode = this.head;
+
+    while( lastNode.next ){
+      n = n +1 ;
+
+
+      lastNode = lastNode.next;
+    }
+
+    if (k === 0){
+      return lastNode.value;
+
+    }
+
+
+    let counter  = 1;
+
+    lastNode = this.head;
+
+    while( lastNode.next ){
+      if (n-k === counter){
+
+
+
+        return lastNode.value;
+      }
+
+      counter= counter+1;
+
+      lastNode = lastNode.next;
+    }
+
+    return 'Exception';
+  }
+
+
+
 }
+
+
 
 
 
