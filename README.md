@@ -28,4 +28,6 @@ CodeFellows 401 Challenges
 
 - Class 07 : linked-list-insertion: [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/Data-Structure/linkedList/READMEkth.md)
 
+- Class 08 : linked lists zipper [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/llZip/README.md)
+
 <!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
