@@ -30,4 +30,6 @@ CodeFellows 401 Challenges
 
 - Class 08 : linked lists zipper [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/llZip/README.md)
 
+- Class 09 : Stacks and Queue [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/stacksAndQueues/README.md)
+
 <!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
