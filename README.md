@@ -38,6 +38,8 @@ CodeFellows 401 Challenges
 
 - Class 13 : multi-bracket validation [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/multiBracketValidation/README.md)
 
-- Class 13 : tree [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/tree/README.md)
+- Class 15 : tree [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/tree/README.md)
+
+- Class 16 : tree [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/find-maximum-binary-tree/README.md)
 
 <!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
