@@ -45,4 +45,7 @@ CodeFellows 401 Challenges
 - Class 17 : binary tree- bridth first [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/breadth-first/README.md)
 
 
+- Class 18 : fizz buzz tree :  [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/fizzBuzzTree/README.md)
+
+
 <!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
