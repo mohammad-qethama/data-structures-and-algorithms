@@ -47,7 +47,9 @@ CodeFellows 401 Challenges
 
 - Class 18 : fizz buzz tree :  [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/fizzBuzzTree/README.md)
 
-- Class 26 : fizz buzz tree :  [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/InsertionSort/README.md)
+- Class 26 : Insertion Sort :  [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/InsertionSort/README.md)
+
+- Class 27 : Merge Sort :  [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/mergeSort/README.md)
 
 
 
