@@ -56,4 +56,7 @@ CodeFellows 401 Challenges
 
 - Class 31 : Repeated Words  :  [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/repeatedWords/README.md)
 
+- Class 31 : Tree Intersection :  [README](https://github.com/mohammad-qethama/data-structures-and-algorithms/blob/master/challenges/treeIntersection/README.md)
+
+
 <!-- - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course. -->
